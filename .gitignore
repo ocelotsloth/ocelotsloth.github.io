@@ -1,0 +1,4 @@
+# .gitignore jekyll
+
+# exclude the generated site contents
+_site/
