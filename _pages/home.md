@@ -5,28 +5,28 @@ date:
 header:
   overlay_color: "#5e616c"
   overlay_image: mm-home-page-feature.jpg
-  cta_label: "<i class='fa fa-download'></i> Install Now"
-  cta_url: "/docs/quick-start-guide/"
+  cta_label: "<i class='fa fa-file-text'></i> About Me"
+  cta_url: "/about"
   caption:
-excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.<br /> <small>Currently at version 3.2.2</small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'Hi! Welcome to my website and blog.'
 feature_row:
-  - image_path: mm-customizable-feature.png
-    alt: "customizable"
+  - image_path: mm-software-feature.jpg
+    alt: "software projects"
     title: "Software Projects"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    excerpt: "I work on several projects between [GMU SRCT](https://srct.gmu.edu) and myself."
+    url: "/projects/software/"
     btn_label: "Learn More"
   - image_path: mm-responsive-feature.png
-    alt: "fully responsive"
+    alt: "hardware projects"
     title: "Hardware Projects"
-    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    excerpt: "Check out my hardware oriented projects."
+    url: "/projects/hardware/"
     btn_label: "Learn More"
   - image_path: mm-free-feature.png
-    alt: "100% free"
+    alt: "photography"
     title: "Photography"
-    excerpt: "Free to use however you want under the MIT License."
-    url: "/docs/license/"
+    excerpt: "Taking pictures since 2016"
+    url: "/photography/"
     btn_label: "Learn More"
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
