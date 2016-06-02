@@ -2,3 +2,7 @@
 
 # exclude the generated site contents
 _site/
+
+# exclude sublime-text workspace and project files
+ocelotsloth.github.io.sublime-project
+ocelotsloth.github.io.sublime-workspace
