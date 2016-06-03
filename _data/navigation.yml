@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Software Projects"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+    url: /#
 
   - title: "Hardware Projects"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
+    url: /#
 
   - title: "Photography"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+    url: /#
 
   - title: "About"
     url: /about
