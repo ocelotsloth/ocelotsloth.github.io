@@ -1,0 +1,13 @@
+# main links links
+main:
+  - title: "Software Projects"
+    url: /#
+
+  - title: "Hardware Projects"
+    url: /#
+
+  - title: "Photography"
+    url: /#
+
+  - title: "About"
+    url: /about
