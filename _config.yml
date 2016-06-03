@@ -11,16 +11,16 @@ title                    : "Stenglein Projects"
 title_separator          : "-"
 name                     : "Mark Stenglein"
 description              : "Projects and Rambles by Mark"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://127.0.0.1:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "stengleinprojects" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
@@ -96,6 +96,7 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - tasks/
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
