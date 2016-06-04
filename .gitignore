@@ -9,3 +9,6 @@ ocelotsloth.github.io.sublime-workspace
 
 # exclude unused images folder
 images/unused/
+
+# exclude npm stuff
+node_modules/
