@@ -63,7 +63,7 @@ google_ad_slot           :
 author:
   name             : "Mark Stenglein"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Hi! I make things!"
   location         : "Fairfax, VA"
   email            : "mark@stenglei.in"
   uri              : "http://www.stengleinprojects.com"
@@ -71,7 +71,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "ocelotsloth"
   foursquare       :
   github           : "ocelotsloth"
   google_plus      :
@@ -82,9 +82,9 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  steam            : "ocelotsloth"
   tumblr           :
-  twitter          :
+  twitter          : "mark_stenglein"
   vine             :
   weibo            :
   xing             :
