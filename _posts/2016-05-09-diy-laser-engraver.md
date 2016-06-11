@@ -1,13 +1,49 @@
 ---
 title:  "DIY Laser Engraver for $80"
 header:
-  teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
+  teaser: projects/diy-laser-engraver/finalEngraver.jpg
 categories:
   - projects
 tags:
   - update
 timelapseID: "FGswquf6Id4"
-
+gallery1:
+  - url: projects/diy-laser-engraver/diode.jpg
+    image_path: projects/diy-laser-engraver/diode.jpg
+    alt: "Laser diode with penny for size comparison."
+    title: "Laser diode with penny for size comparison."
+breadboardPrototypeGallery:
+  - url: projects/diy-laser-engraver/breadboardCircuit1.jpg
+    image_path: projects/diy-laser-engraver/breadboardCircuit1.jpg
+    alt: "The initial circuit before migration to perfboard"
+    title: "The initlal circuit before migration to perfboard"
+  - url: projects/diy-laser-engraver/breadboardCircuit2.jpg
+    image_path: projects/diy-laser-engraver/breadboardCircuit2.jpg
+    alt: "The initial circuit before migration to perfboard"
+    title: "The initlal circuit before migration to perfboard"
+constructionGallery:
+  - url: projects/diy-laser-engraver/initialGantryDesign.jpg
+    image_path: projects/diy-laser-engraver/initialGantryDesign.jpg
+    alt: "The inital design for the gantry. This changed by the end of it all."
+    title: "The inital design for the gantry. This changed by the end of it all."
+  - url: projects/diy-laser-engraver/strippedScanner.jpg
+    image_path: projects/diy-laser-engraver/strippedScanner.jpg
+    alt: "The scanner stripped down and ready to be an axis."
+    title: "The scanner stripped down and ready to be an axis."
+finalProductGallery:
+  - url: projects/diy-laser-engraver/finalEngraver.jpg
+    image_path: projects/diy-laser-engraver/finalEngraver.jpg
+    alt: "The final engraver."
+    title: "The final engraver."
+shipGallery:
+  - url: projects/diy-laser-engraver/ship1.jpg
+    image_path: projects/diy-laser-engraver/ship1.jpg
+    alt: "A ship in the process of being engraved onto a piece of balsa."
+    title: "A ship in the process of being engraved onto a piece of balsa."
+  - url: projects/diy-laser-engraver/ship2.jpg
+    image_path: projects/diy-laser-engraver/ship2.jpg
+    alt: "A ship in the process of being engraved onto a piece of balsa."
+    title: "A ship in the process of being engraved onto a piece of balsa."
 ---
 
 This is the first real project that I started to work on. During winter break in
@@ -57,9 +93,53 @@ sensitive. I then bought an Aixiz module to house it and a constant current
 driver for power. It is important to use a constant current driver as any other
 source will blow out the diode almost instantly.
 
+{% include gallery id="gallery1" caption="Laser diode with penny for scale." %}
+
 Moving on to the electronics, I ended up using one Arduino Nano, two
 [Easy Drivers](http://www.schmalzhaus.com/EasyDriver/), two laser end stops, and
 a relay to power the laser from the Arduino with. Here is the circuit on
 breadboard. All the pinouts are identical to default grbl settings with the
 exception of the laser, which is on the feed enable pin (also documented at
 grbl’s website).
+
+{% include gallery id="breadboardPrototypeGallery" caption="The inital circuit
+on breadboard." %}
+
+Which began the process of building. I build this in a few hours and did not
+think to document the vast majority of the work, so I only have a couple photos.
+The initial plan called for the a different style to drive the upper axis, which
+did not end up working as the drawer rails I bought did not work very well, so I
+ended up taking apart an inkjet printer and salvaging the print head assembly
+for it. This ended up working really well actually, as it provided a really nice
+way for me to mount the laser diode on the CD drive parts. I am able to focus
+the laser by hard focusing it at its lowest position and then sliding it upwards
+as high as the material stands on the bed surface.
+
+{% include gallery id="constructionGallery" %}
+
+Which leads me to the final product!
+
+{% include gallery id="finalProductGallery" %}
+
+## Safety
+
+There are some things that are really important to note about this project from
+a safety perspective. First, I have yet to build a proper guard around the
+laser. This is problematic because a 500mW laser it can and will blind somebody
+in an instant if they are exposed to it directly and can still have equally
+harmful effects from incident reflections. Safety glasses (the laser kind) are a
+must and I will be building a ventilated shroud to go over the entire machine
+while in operation. That said, it can produce some really nice looking work when
+used correctly.
+
+## Conclusion
+
+In the end I was actually able to create this machine for far less than the cost
+of buying one new. It isn’t nearly as accurate as a properly made machine but it
+still does a consistently decent job. Here are a couple samples:
+
+{% include gallery id="shipGallery" %}
+
+If I were to do it again I would probably spend some more money and use proper
+parts but that was not really the point of this exercise anyway. It was good fun
+and I should have a decent tool to use in the future for other fun things!
