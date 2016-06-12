@@ -124,6 +124,7 @@
     background-position: center;
     animation: intro 0.3s both;
     animation-delay: 0.25s;
+    text-align: center;
 
     a {
       color: #fff;
@@ -147,7 +148,7 @@
     }
 
     .page__lead {
-      max-width: $medium;
+      //max-width: $medium;
     }
 
     .page__title {
