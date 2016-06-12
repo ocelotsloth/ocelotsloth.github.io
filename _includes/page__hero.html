@@ -1,18 +1,18 @@
 {% include base_path %}
 
-{% if page.header.image contains "http" %}
+{% if page.header.image contains "://" %}
   {% capture img_path %}{{ page.header.image }}{% endcapture %}
 {% else %}
   {% capture img_path %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endcapture %}
 {% endif %}
 
-{% if page.header.cta_url contains "http" %}
+{% if page.header.cta_url contains "://" %}
   {% capture cta_path %}{{ page.header.cta_url }}{% endcapture %}
 {% else %}
   {% capture cta_path %}{{ page.header.cta_url | prepend: base_path }}{% endcapture %}
 {% endif %}
 
-{% if page.header.overlay_image contains "http" %}
+{% if page.header.overlay_image contains "://" %}
   {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
 {% elsif page.header.overlay_image %}
   {% capture overlay_img_path %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endcapture %}
@@ -28,7 +28,7 @@
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
-    <div class="wrapper transparency">
+    <div class="wrapper">
       <h1 class="page__title" itemprop="headline">
         {% if paginator %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page }} {{ paginator.page }}{% endunless %}

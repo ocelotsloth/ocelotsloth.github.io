@@ -9,3 +9,16 @@ ocelotsloth.github.io.sublime-workspace
 
 # exclude unused images folder
 images/unused/
+
+# exclude npm stuff
+node_modules/
+npm-debug.log*
+
+# Update 3.2.7
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+codekit-config.json
