@@ -11,7 +11,7 @@ title                    : "Stenglein Projects"
 title_separator          : "-"
 name                     : "Mark Stenglein"
 description              : "Projects and Rambles by Mark"
-url                      : "http://ocelotsloth.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://127.0.0.1:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -63,7 +63,7 @@ google_ad_slot           :
 author:
   name             : "Mark Stenglein"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Hi! I make things!"
   location         : "Fairfax, VA"
   email            : "mark@stenglei.in"
   uri              : "http://www.stengleinprojects.com"
@@ -71,7 +71,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "ocelotsloth"
   foursquare       :
   github           : "ocelotsloth"
   google_plus      :
@@ -82,9 +82,9 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  steam            : "ocelotsloth"
   tumblr           :
-  twitter          :
+  twitter          : "mark_stenglein"
   vine             :
   weibo            :
   xing             :
@@ -96,6 +96,7 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - images/unused
   - tasks/
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -145,12 +146,33 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

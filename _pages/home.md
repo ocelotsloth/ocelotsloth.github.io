@@ -8,6 +8,7 @@ header:
   cta_label: "<i class='fa fa-file-text'></i> About Me"
   cta_url: "/about"
   caption:
+title: 'Stenglein Projects'
 excerpt: 'Hi! Welcome to my website and blog.'
 feature_row:
   - image_path: mm-software-feature.png
@@ -28,12 +29,24 @@ feature_row:
     excerpt: "Taking pictures since 2016"
     url: "/photography/"
     btn_label: "Learn More"
-github:
-  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @mark_stenglein](https://twitter.com/mark_stenglein){: .btn .btn--twitter}'
+  - excerpt: 'Get notified when I add new stuff: &nbsp; [<i class="fa fa-twitter"></i> @mark_stenglein](https://twitter.com/mark_stenglein){: .btn .btn--twitter}'
 ---
 
-{% include feature_row id="intro" type="center" %}
+<center>{% include feature_row id="intro" type="center" %}</center>
 
 {% include feature_row %}
+
+{% include group-by-array collection=site.posts field="categories" %}
+
+{% include sidebar.html %}
+
+<div class="archive">
+  <h1>Recent Posts:</h1>
+    {% include base_path %}
+
+    {% for post in site.posts limit:5 %} <!-- Limits to the latest 5 posts on the site -->
+      {% include archive-single.html %}
+    {% endfor %}
+</div>
+
