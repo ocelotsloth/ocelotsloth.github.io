@@ -154,6 +154,7 @@ a:hover {
 .feature__item {
   margin-bottom: 2em;
   font-size: 1.25rem;
+  text-align: center;
 
   @include breakpoint($small) {
     margin-bottom: 0;
