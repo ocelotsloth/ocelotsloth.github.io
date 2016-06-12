@@ -11,6 +11,9 @@ tags:
   - grbl
   - arduino
   - engraver
+excerpt: "I was actually able to create this machine for far less than the cost
+         of buying one new. It isn’t nearly as accurate as a properly made
+         machine but it still does a consistently decent job."
 timelapseID: "FGswquf6Id4"
 gallery1:
   - url: projects/diy-laser-engraver/diode.jpg
@@ -50,6 +53,8 @@ shipGallery:
     alt: "A ship in the process of being engraved onto a piece of balsa."
     title: "A ship in the process of being engraved onto a piece of balsa."
 ---
+
+{% include toc %}
 
 This is the first real project that I started to work on. During winter break in
 12th grade, I decided that I wanted to have a go at building a 3D Printer from
