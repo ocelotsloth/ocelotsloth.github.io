@@ -36,3 +36,17 @@ intro:
 <center>{% include feature_row id="intro" type="center" %}</center>
 
 {% include feature_row %}
+
+{% include group-by-array collection=site.posts field="categories" %}
+
+{% include sidebar.html %}
+
+<div class="archive">
+  <h1>Recent Posts:</h1>
+    {% include base_path %}
+
+    {% for post in site.posts limit:5 %} <!-- Limits to the latest 5 posts on the site -->
+      {% include archive-single.html %}
+    {% endfor %}
+</div>
+
