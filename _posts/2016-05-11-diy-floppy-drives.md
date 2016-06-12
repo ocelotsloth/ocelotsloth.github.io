@@ -10,9 +10,13 @@ tags:
   - floppy drives
   - midi
   - arduino
+excerpt: "In which I descibe the initial building of my DIY musical floppy
+          drives."
 firstTestID: "MfpcGV216Yk"
 secondTestID: "I2ceAvlwbmM"
 ---
+
+{% include toc %}
 
 Inspired by videos such as [“Undertale – Megalovania {8 FDD, 2 SM}” by MrSolidSnake745](https://youtu.be/cL7oFfCX-E0)
 on YouTube, I decided in May of 2015 to try and make musical floppy drives of my
@@ -22,6 +26,8 @@ with the two drives that I had. I’ll write up what it took to get there once I
 finished making the final work, but here’s the video from that first prototype:
 
 {% include youtubePlayer.html id=page.firstTestID %}
+
+## Initial Construction
 
 Needless to say I was able to get them working with two drives. My high school
 ended up being a good source for more drives, and after seeing what I built,
