@@ -5,7 +5,12 @@ header:
 categories:
   - projects
 tags:
-  - update
+  - diy
+  - laser
+  - cnc
+  - grbl
+  - arduino
+  - engraver
 timelapseID: "FGswquf6Id4"
 gallery1:
   - url: projects/diy-laser-engraver/diode.jpg
