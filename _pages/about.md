@@ -39,7 +39,6 @@ me an email at mark at stengle dot in.
 ### Education
 - George Mason University (2015-2019)
 	- Electrical Engineering Student
-- Grafton High School (2011-2015)
 
 ### Experience
 - Summer Camp Counselor: Bayport Scout Reservation
