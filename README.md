@@ -2,7 +2,7 @@
 
 This is the repository which holds my personal website at www.stengleinprojects.com.
 
-Currently the site is located at ocelotsloth.github.io because I haven't yet
+Currently the site is located at http://ocelotsloth.github.io because I haven't yet
 finished making this site. That said, it utilizes a combination of
 [Jekyll](https://jekyllrb.com/), [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/),
 and my own customizations.
