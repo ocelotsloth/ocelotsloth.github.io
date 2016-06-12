@@ -11,7 +11,7 @@ title                    : "Stenglein Projects"
 title_separator          : "-"
 name                     : "Mark Stenglein"
 description              : "Projects and Rambles by Mark"
-url                      : "http://127.0.0.1:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://ocelotsloth.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -226,4 +226,4 @@ tag_archive:
 compress_html:
   clippings: all
   ignore:
-    envs: development
+    envs:
