@@ -1,0 +1,33 @@
+{% include base_path %}
+
+{% if include.id %}
+    {% assign gallery = page.[include.id] %}
+{% else %}
+    {% assign gallery = page.gallery %}
+{% endif %}
+
+<div class="dailygallery">
+  {% for img in gallery %}
+    {% if img.url %}
+        <a href=
+            {% if img.url contains "://" %}
+                "{{ img.url }}"
+            {% else %}
+                "{{ img.url | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            {% if img.title %}title="{{ img.title }}"{% endif %}
+        >
+            <figure>
+                <img src=
+                    {% if img.image_path contains "://" %}
+                        "{{ img.image_path }}"
+                    {% else %}
+                        "{{ img.image_path | prepend: "/images/" | prepend: base_path }}"
+                    {% endif %}
+                    alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+                >
+            </figure>
+        </a>
+    {% endif %}
+  {% endfor %}
+</div>

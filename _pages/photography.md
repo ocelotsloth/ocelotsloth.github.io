@@ -19,12 +19,12 @@ feature_row1:
     btn_class: "btn--inverse"
 feature_row2:
   - image_path: daily-photo/feature2.jpg
-    alt: "my collections"
+    alt: "my collection"
     title: "My Collection"
-    excerpt: 'Whenever I take a group of photos I'll put them in an album here'
+    excerpt: "Whenever I take a group of photos I'll put them in an album here"
     url: "#test-link"
-    btn_label: "See the Pictures"
-    btn_class: "btn--inverse"S
+    btn_label: "Learn More"
+    btn_class: "btn--inverse"
 ---
 
 {% include feature_row id="intro" type="center" %}
