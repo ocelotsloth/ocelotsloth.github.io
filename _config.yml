@@ -146,6 +146,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  daily:
+    output: true
+    permalink: /photography/:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -166,18 +172,28 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _daily-photos
+  - scope:
+      path: ""
+      type: daily-photos
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      sidebar:
+        nav: "daily-photos"
 
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
 gems:
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -185,7 +201,7 @@ gems:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
