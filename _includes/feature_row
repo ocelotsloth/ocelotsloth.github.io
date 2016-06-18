@@ -20,13 +20,15 @@
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
-            <img src=
-              {% if f.image_path contains "://" %}
-                "{{ f.image_path }}"
-              {% else %}
-                "{{ f.image_path | prepend: "/images/" | prepend: base_path }}"
-              {% endif %}
-            alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            <a href="{{ f_url }}">
+              <img src=
+                {% if f.image_path contains "://" %}
+                  "{{ f.image_path }}"
+                {% else %}
+                  "{{ f.image_path | prepend: "/images/" | prepend: base_path }}"
+                {% endif %}
+              alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            </a>
           </div>
         {% endif %}
 
