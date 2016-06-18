@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Blog"
-    url: "/categories/"
+    url: "/blog/"
 
   - title: "Projects"
     url: /#
@@ -11,3 +11,13 @@ main:
 
   - title: "About"
     url: /about
+
+
+# documentation links
+daily-photos:
+  - title: "Main Gallery"
+    url: "/photography/daily"
+  - title: June 2016
+    children:
+      - title: "5/17 The Journey Begins"
+        url: "/photography/daily/001"

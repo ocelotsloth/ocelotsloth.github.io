@@ -14,7 +14,7 @@ feature_row1:
     alt: "A photo a day..."
     title: "A photo a day..."
     excerpt: 'In this project I will create an image every day for the next year and see what comes out of it.'
-    url: "#test-link"
+    url: "/photography/daily"
     btn_label: "See the Pictures"
     btn_class: "btn--inverse"
 feature_row2:
