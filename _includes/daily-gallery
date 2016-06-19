@@ -3,7 +3,7 @@
 {% if include.id %}
     {% assign gallery = page.[include.id] %}
 {% else %}
-    {% assign gallery = page.gallery %}
+    {% assign gallery = page.daily-gallery %}
 {% endif %}
 
 <!-- From https://www.sitepoint.com/using-modern-css-to-build-a-responsive-image-grid/ -->
