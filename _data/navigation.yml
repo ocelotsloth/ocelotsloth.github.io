@@ -1,0 +1,25 @@
+# main links links
+main:
+  - title: "Blog"
+    url: "/blog/"
+
+  - title: "Projects"
+    url: "/projects/"
+
+  - title: "Photography"
+    url: /photography/
+
+  - title: "About"
+    url: /about
+
+
+# documentation links
+daily-photos:
+  - title: "Main Gallery"
+    url: "/photography/daily"
+  - title: June 2016
+    children:
+      - title: "002 :: Dusty, a Dog."
+        url: "/photography/daily/2016/6/20"
+      - title: "001 :: The Journey Begins!"
+        url: "/photography/daily/2016/6/19"
