@@ -4,7 +4,7 @@ main:
     url: "/blog/"
 
   - title: "Projects"
-    url: /#
+    url: "/projects/"
 
   - title: "Photography"
     url: /photography/
@@ -19,5 +19,7 @@ daily-photos:
     url: "/photography/daily"
   - title: June 2016
     children:
-      - title: "6/19 The Journey Begins"
+      - title: "002 :: Dusty, a Dog."
+        url: "/photography/daily/2016/6/20"
+      - title: "001 :: The Journey Begins!"
         url: "/photography/daily/2016/6/19"

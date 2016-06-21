@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Stenglein Projects"
 title_separator          : "-"
 name                     : "Mark Stenglein"
-description              : "Projects and Rambles by Mark"
+description              : "Photography, Projects and Rambles by Mark"
 url                      : "http://ocelotsloth.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -63,14 +63,14 @@ google_ad_slot           :
 author:
   name             : "Mark Stenglein"
   avatar           : "bio-photo.jpg"
-  bio              : "Hi! I make things!"
+  bio              : "Just another college EE student who likes to make things."
   location         : "Fairfax, VA"
   email            : "mark@stenglei.in"
   uri              : "http://www.stengleinprojects.com"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
+  flickr           : "ocelotsloth"
   facebook         : "ocelotsloth"
   foursquare       :
   github           : "ocelotsloth"
@@ -181,7 +181,17 @@ defaults:
       layout: single
       read_time: false
       author_profile: true
-      share: false
+      share: true
+      comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      read_time: true
+      author_profile: true
+      share: true
       comments: true
 
 
