@@ -48,7 +48,7 @@ me an email at mark at stengle dot in.
 - NASA Langley Research Center Intern
 	- Summer of 2016
 	- Responsible for building a Microsoft Sharepoint Application to be used by
-	the Electrical Engineering Branch and the Engineering Directorate to track
+	the Electrical Systems Branch and the Engineering Directorate to track
 	and budget for software purchases and licenses throughout the fiscal year.
 
 ### Certifications
