@@ -1,0 +1,7 @@
+url                      : "http://127.0.0.1:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+comments:
+  provider               : "false" # false (default), "disqus", "facebook", "google-plus", custom"
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Stenglein Projects"
 title_separator          : "-"
 name                     : "Mark Stenglein"
-description              : "Projects and Rambles by Mark"
+description              : "Photography, Projects and Rambles by Mark"
 url                      : "http://ocelotsloth.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -63,14 +63,14 @@ google_ad_slot           :
 author:
   name             : "Mark Stenglein"
   avatar           : "bio-photo.jpg"
-  bio              : "Hi! I make things!"
+  bio              : "Just another college EE student who likes to make things."
   location         : "Fairfax, VA"
   email            : "mark@stenglei.in"
   uri              : "http://www.stengleinprojects.com"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
+  flickr           : "ocelotsloth"
   facebook         : "ocelotsloth"
   foursquare       :
   github           : "ocelotsloth"
@@ -98,6 +98,7 @@ include:
 exclude:
   - images/unused
   - tasks/
+  - serve.sh
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -146,6 +147,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  daily:
+    output: true
+    permalink: /photography/:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -166,18 +173,38 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _daily
+  - scope:
+      path: ""
+      type: daily
+    values:
+      layout: single
+      read_time: false
+      author_profile: true
+      share: true
+      comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      read_time: true
+      author_profile: true
+      share: true
+      comments: true
 
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
 gems:
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -185,7 +212,7 @@ gems:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
