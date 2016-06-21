@@ -69,7 +69,7 @@ me an email at mark at stengle dot in.
 		- Responsible for assisting with setup and strike of all equipment,
 		along with assisting with filming and photographing the ensemble.
 		Also responsible for ensuring that all of our equipment was safely
-		stored before leaving andy of the several sites we were at.
+		stored before leaving any of the several sites we were at.
 - Mason Student-Run Computing and Technology [(SRCT)](https://srct.gmu.edu)
 	- Contributer since 2015
 	- Developer since Spring 2016
