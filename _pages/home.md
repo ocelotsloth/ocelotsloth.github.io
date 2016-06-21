@@ -12,16 +12,16 @@ title: 'Stenglein Projects'
 excerpt: 'Hi! Welcome to my website and blog.'
 feature_row:
   - image_path: mm-software-feature.png
-    alt: "software projects"
-    title: "Software Projects"
-    excerpt: "I work on several projects between [GMU SRCT](https://srct.gmu.edu) and myself."
-    url: "/projects/software/"
+    alt: "Blog"
+    title: "Blog/Rambles"
+    excerpt: "In which I talk about various things that may or may not have to do with my projects."
+    url: "/blog/"
     btn_label: "Learn More"
   - image_path: mm-hardware-feature.png
-    alt: "hardware projects"
-    title: "Hardware Projects"
-    excerpt: "Check out my hardware oriented projects."
-    url: "/projects/hardware/"
+    alt: "projects"
+    title: "Projects"
+    excerpt: "Check out some of the projects that I've worked on here!"
+    url: "/projects/"
     btn_label: "Learn More"
   - image_path: mm-photography-feature.png
     alt: "photography"
