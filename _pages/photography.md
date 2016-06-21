@@ -20,10 +20,10 @@ feature_row1:
 feature_row2:
   - image_path: daily/feature2.jpg
     alt: "my collection"
-    title: "My Collection"
+    title: "My Flickr Collection"
     excerpt: "Whenever I take a group of photos I'll put them in an album here"
-    url: "#test-link"
-    btn_label: "Learn More"
+    url: "https://www.flickr.com/photos/ocelotsloth/"
+    btn_label: "See the Pictures"
     btn_class: "btn--inverse"
 ---
 
