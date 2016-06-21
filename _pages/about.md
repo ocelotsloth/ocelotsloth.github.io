@@ -19,7 +19,7 @@ modified: 2016-04-18T16:39:37-04:00
 
 I'm currently studying Computer Engineering at George Mason University. In my
 free time I work on projects with [SRCT](https://srct.gmu.edu), a student
-organization which aims to create tools to help the communityat Mason.
+organization which aims to create tools to help the community at Mason.
 
 I also make things. Sometimes the things I make turn out to be neat, but mostly
 they just interest me in some form or fashion, so I put them here. Be sure to
