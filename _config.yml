@@ -40,7 +40,6 @@ facebook:
   username               : "ocelotsloth"
   app_id                 : "1705451479704191"
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -166,6 +165,8 @@ defaults:
       comments: true
       share: true
       related: true
+      ogImage:
+        -url: mm-hardware-feature.png
   # _pages
   - scope:
       path: ""
@@ -173,6 +174,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      ogImage:
+        -url: mm-hardware-feature.png
   # _daily
   - scope:
       path: ""
@@ -183,6 +186,8 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      ogImage:
+        -url: mm-hardware-feature.png
   # _projects
   - scope:
       path: ""
@@ -193,6 +198,8 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      ogImage:
+        -url: mm-hardware-feature.png
 
 
 # Outputting
