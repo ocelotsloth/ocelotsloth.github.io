@@ -39,7 +39,9 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="{{ site.locale }}">
+<!-- Note needed because I am using the default setting.
+  <meta property="og:locale" content="{{ site.locale }}">
+-->
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 
@@ -85,6 +87,12 @@
 
 {% if page.header.image %}
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+{% endif %}
+
+{% if page.ogImage %}
+  {% for img in page.ogImage %}
+    <meta property="og:image" content="{% if img.url contains "://" %}{{ img.url }}{% else %}{{ img.url | prepend: "/images/" | prepend: base_path }}{% endif %}">
+  {% endfor %}
 {% endif %}
 
 {% if page.date %}

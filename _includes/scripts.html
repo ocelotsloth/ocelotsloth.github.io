@@ -1,4 +1,24 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<!-- Facebook JS API -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1705451479704191',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- End Facebook JS API -->
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
