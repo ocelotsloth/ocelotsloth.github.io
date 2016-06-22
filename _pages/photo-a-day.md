@@ -9,6 +9,8 @@ author_profile: false
 read_time: false
 
 daily-gallery:
+    - url: /photography/daily/2016/6/21
+      image_path: daily/2016/6/21-thumb.jpg
     - url: /photography/daily/2016/6/20
       image_path: daily/2016/6/20-thumb.jpg
       alt: "June 20, 2016"
