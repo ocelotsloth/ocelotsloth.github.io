@@ -93,6 +93,8 @@
   {% for img in page.ogImage %}
     <meta property="og:image" content="{% if img.url contains "://" %}{{ img.url }}{% else %}{{ img.url | prepend: "/images/" | prepend: base_path }}{% endif %}">
   {% endfor %}
+  {% else %}
+    <meta property="og:image" content="{{ base_path }}/images/mm-hardware-feature.png">
 {% endif %}
 
 {% if page.date %}

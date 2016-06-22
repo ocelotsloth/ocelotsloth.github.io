@@ -165,8 +165,6 @@ defaults:
       comments: true
       share: true
       related: true
-      ogImage:
-        -url: mm-hardware-feature.png
   # _pages
   - scope:
       path: ""
@@ -174,8 +172,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      ogImage:
-        -url: mm-hardware-feature.png
   # _daily
   - scope:
       path: ""
@@ -186,8 +182,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-      ogImage:
-        -url: mm-hardware-feature.png
   # _projects
   - scope:
       path: ""
@@ -198,8 +192,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-      ogImage:
-        -url: mm-hardware-feature.png
 
 
 # Outputting
