@@ -11,6 +11,9 @@ tags:
   - grbl
   - arduino
   - engraver
+twitterImage: "projects/diy-laser-engraver/finalEngraver.jpg"
+ogImage:
+    - url: "projects/diy-laser-engraver/finalEngraver.jpg"
 excerpt: "I was actually able to create this machine for far less than the cost
          of buying one new. It isn’t nearly as accurate as a properly made
          machine but it still does a consistently decent job."
