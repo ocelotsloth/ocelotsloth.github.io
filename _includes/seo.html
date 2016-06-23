@@ -65,10 +65,12 @@
     <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
   {% else %}
     <meta name="twitter:card" content="summary">
-    {% if site.og_image %}
-      <meta name="twitter:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
+    {% if page.twitterImage %}
+      <meta name="twitter:image" content="{{ page.twitterImage | prepend: "/images/" | prepend: base_path }}">
+      {% else %}
+      <meta name="twitter:image" content="http://www.stengleinprojects.com/images/mm-hardware-feature.png">
     {% endif %}
-  {% endif %}
+{% endif %}
 
   {% if seo_author_twitter %}
     <meta name="twitter:creator" content="@{{ seo_author_twitter }}">
