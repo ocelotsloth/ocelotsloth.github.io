@@ -4,7 +4,6 @@ layout: single
 header:
   teaser: blog/visit-to-nasa-hanger/feature-thumb.jpg
   image: blog/visit-to-nasa-hanger/feature.jpg
-
 twitterImage: "blog/visit-to-nasa-hanger/feature.jpg"
 ogImage:
     - url: "blog/visit-to-nasa-hanger/feature.jpg"
