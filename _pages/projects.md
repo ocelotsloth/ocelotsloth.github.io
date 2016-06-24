@@ -14,7 +14,7 @@ feature_row1:
     alt: "DIY Laser Engraver"
     title: "DIY Laser Engraver"
     excerpt: 'I built a fully functional DIY Laser Engraver for around 80 dollars.'
-    url: "/projects/diy-laser-engraver/"
+    url: "/blog/projects/diy-laser-engraver/"
     btn_label: "Check out the LASER!"
     btn_class: "btn--inverse"
 feature_row2:
@@ -22,7 +22,7 @@ feature_row2:
     alt: "DIY Musical Floppy Drives"
     title: "Floppy drives with rhythm!"
     excerpt: "For this project, I am in the process of making some really cool musical floppy drives!"
-    url: "/projects/diy-floppy-drives/"
+    url: "/blog/projects/diy-floppy-drives/"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
 ---
