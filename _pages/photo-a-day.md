@@ -11,10 +11,13 @@ read_time: false
 daily-gallery:
     - url: /photography/daily/2016/6/23
       image_path: daily/2016/6/23-thumb.jpg
+      alt: "June 23, 2016"
     - url: /photography/daily/2016/6/22
       image_path: daily/2016/6/22-thumb.jpg
+      alt: "June 22, 2016"
     - url: /photography/daily/2016/6/21
       image_path: daily/2016/6/21-thumb.jpg
+      alt: "June 21, 2016"
     - url: /photography/daily/2016/6/20
       image_path: daily/2016/6/20-thumb.jpg
       alt: "June 20, 2016"
