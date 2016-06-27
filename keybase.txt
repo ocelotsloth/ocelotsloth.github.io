@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/ocelotsloth
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.stengleinprojects.com
+  * I am ocelotsloth (https://keybase.io/ocelotsloth) on keybase.
+  * I have a public key ASAbZu5xdP8JnDL7IY9AbBcQaXBA5f8qTRw15s5pJZWwewo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101bf8f8b41d1e157fafa5a1ab6415ccc2e2799422e840c3136b192f9d3b98adc320a",
+            "host": "keybase.io",
+            "kid": "01201b66ee7174ff099c32fb218f406c1710697040e5ff2a4d1c35e6ce692595b07b0a",
+            "uid": "c285d7ccbd1f11623567753c1b602519",
+            "username": "ocelotsloth"
+        },
+        "service": {
+            "hostname": "www.stengleinprojects.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1467062678,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1467062598,
+        "hash": "ca025e19794e7cc08d3d723c12661eef7796f674ea8537dfa9884d8b28aba4d3864c0976e5db3fdd2ed0b4ec32eb1dac3691a77d9aafe62322c754bbed3b7c9a",
+        "seqno": 501294
+    },
+    "prev": "f60c24874b6533d70f1c9c5e67e2f5a99acc3d9994a35298da083238d12c2465",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgG2bucXT/CZwy+yGPQGwXEGlwQOX/Kk0cNebOaSWVsHsKp3BheWxvYWTFAwN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYmY4ZjhiNDFkMWUxNTdmYWZhNWExYWI2NDE1Y2NjMmUyNzk5NDIyZTg0MGMzMTM2YjE5MmY5ZDNiOThhZGMzMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMWI2NmVlNzE3NGZmMDk5YzMyZmIyMThmNDA2YzE3MTA2OTcwNDBlNWZmMmE0ZDFjMzVlNmNlNjkyNTk1YjA3YjBhIiwidWlkIjoiYzI4NWQ3Y2NiZDFmMTE2MjM1Njc3NTNjMWI2MDI1MTkiLCJ1c2VybmFtZSI6Im9jZWxvdHNsb3RoIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cuc3RlbmdsZWlucHJvamVjdHMuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNiJ9LCJjdGltZSI6MTQ2NzA2MjY3OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDY3MDYyNTk4LCJoYXNoIjoiY2EwMjVlMTk3OTRlN2NjMDhkM2Q3MjNjMTI2NjFlZWY3Nzk2ZjY3NGVhODUzN2RmYTk4ODRkOGIyOGFiYTRkMzg2NGMwOTc2ZTVkYjNmZGQyZWQwYjRlYzMyZWIxZGFjMzY5MWE3N2Q5YWFmZTYyMzIyYzc1NGJiZWQzYjdjOWEiLCJzZXFubyI6NTAxMjk0fSwicHJldiI6ImY2MGMyNDg3NGI2NTMzZDcwZjFjOWM1ZTY3ZTJmNWE5OWFjYzNkOTk5NGEzNTI5OGRhMDgzMjM4ZDEyYzI0NjUiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDwz7quJIOS8/Q3KgWC6kS/L184HAQhYq7UvyfBQfQgWLIzyR7eMFPjBqy8d5JN/ABsXW2Afr+kl6cqd845KbIGqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgu8IXnp/MtJ5b0QtvgkeFOLa8E54fdsvhrNzxactSy0yjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ocelotsloth
+
+==================================================================
+
