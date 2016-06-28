@@ -79,3 +79,4 @@ For changes to the css, you will need to run `npm run build:css` to rebuild the
 
 This site also hosts a .txt file for keybase verification.
 - www.stengleinprojects.com/keybase.txt
+- GPG Fingerprint: 63B67DAF
