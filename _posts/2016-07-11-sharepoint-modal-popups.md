@@ -1,5 +1,5 @@
 ---
-title:  "How to create SharePoint Popups for New Item Forms"
+title:  "How to Create SharePoint Popups for New Item Forms"
 header:
   teaser: mm-software-feature.png
 categories:
