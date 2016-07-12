@@ -14,7 +14,7 @@ twitterImage: "mm-software-feature.png"
 ogImage:
     - url: "mm-software-feature.png"
 excerpt: "How to add native popups in SharePoint using client-side javascript and
-          Microsoft's own API's."
+          Microsoft's own API."
 ---
 By using modal popups instead of linking directly to the new item forms for a list,
 you can save the end user the frustration of having to go back and figure out where
