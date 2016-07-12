@@ -13,8 +13,8 @@ tags:
 twitterImage: "mm-software-feature.png"
 ogImage:
     - url: "mm-software-feature.png"
-excerpt: "In which I descibe the initial building of my DIY musical floppy
-          drives."
+excerpt: "How to add native popups in SharePoint using client-side javascript and
+          Microsoft's own API's."
 ---
 By using modal popups instead of linking directly to the new item forms for a list,
 you can save the end user the frustration of having to go back and figure out where
