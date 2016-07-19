@@ -61,7 +61,7 @@ branch and pull down any changes.
 
 You can now use the following command to run the site locally:
 
-`bundle exec jekyll serve`
+`./serve.sh`
 
 ## Development Tips
 
