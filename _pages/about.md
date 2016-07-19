@@ -7,7 +7,7 @@ modified: 2016-04-18T16:39:37-04:00
 
 {% include base_path %}
 
-I'm currently studying Computer Engineering at George Mason University. In my
+I'm currently studying Electrical Engineering at George Mason University. In my
 free time I work on projects with [SRCT](https://srct.gmu.edu), a student
 organization which aims to create tools to help the community at Mason.
 
