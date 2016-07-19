@@ -68,7 +68,7 @@ If you make changes to the site, the jekyll server will rebuild the site
 automatically in most cases, but for changes to `_config.yml` or to any of the
 css, there are special instructions.
 
-For changes to `_config.yml`, simply exit and excecute `bundle exec jekyll serve`
+For changes to `_config.yml`, simply exit and excecute `./start.sh`
 again.
 
 For changes to the css, you will need to run `npm run build:css` to rebuild the
