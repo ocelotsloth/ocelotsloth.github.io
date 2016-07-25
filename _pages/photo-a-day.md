@@ -9,6 +9,21 @@ author_profile: false
 read_time: false
 
 daily-gallery:
+    - url: /photography/daily/2016/7/25
+      image_path: daily/2016/7/25.jpg
+      alt: "July 25, 2016"
+    - url: /photography/daily/2016/6/27
+      image_path: daily/2016/6/27-thumb.jpg
+      alt: "June 27, 2016"
+    - url: /photography/daily/2016/6/26
+      image_path: daily/2016/6/26-thumb.jpg
+      alt: "June 26, 2016"
+    - url: /photography/daily/2016/6/25
+      image_path: daily/2016/6/25-thumb.jpg
+      alt: "June 25, 2016"
+    - url: /photography/daily/2016/6/24
+      image_path: daily/2016/6/24-thumb.jpg
+      alt: "June 24, 2016"
     - url: /photography/daily/2016/6/23
       image_path: daily/2016/6/23-thumb.jpg
       alt: "June 23, 2016"
