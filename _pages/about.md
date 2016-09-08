@@ -53,7 +53,7 @@ me an email at mark at stengle dot in.
 		troubeshooting and problem-solving. If something needs to be done, I
 		make myself available to find a solution.
 	- On scholarship Spring 2016, Fall 2016
-- Mean Green Drum Line (Sprint 2016)
+- Mean Green Drum Line (Spring 2016)
 	- Assistant Videographer for the ensemble's 2016 trip to the WGI World
 	Championships in Dayton, OH.
 		- Responsible for assisting with setup and strike of all equipment,
