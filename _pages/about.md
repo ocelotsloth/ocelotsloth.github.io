@@ -34,7 +34,7 @@ me an email at mark at stengle dot in.
 - Summer Camp Counselor: Bayport Scout Reservation
 	- Summers of 2013, 2014, and 2015
 	- Responsible for leading and instructing a small group of first year
-	campers through te Nighthawk Program.
+	campers through the Nighthawk Program.
 - NASA Langley Research Center Intern
 	- Summer of 2016
 	- Responsible for building a Microsoft Sharepoint Application to be used by
