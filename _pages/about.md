@@ -50,7 +50,7 @@ me an email at mark at stengle dot in.
 	- Sound Engineering
 		- Responsible for making the band sound it's very best in any
 		environment, setting equipment up, striking, and general onsite
-		troubeshooting and problem-solving. If something needs to be done, I
+		troubleshooting and problem-solving. If something needs to be done, I
 		make myself available to find a solution.
 	- On scholarship Spring 2016, Fall 2016
 - Mean Green Drum Line (Spring 2016)
