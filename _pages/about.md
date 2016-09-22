@@ -34,7 +34,7 @@ me an email at mark at stengle dot in.
 - Summer Camp Counselor: Bayport Scout Reservation
 	- Summers of 2013, 2014, and 2015
 	- Responsible for leading and instructing a small group of first year
-	campers through te Nighthawk Program.
+	campers through the Nighthawk Program.
 - NASA Langley Research Center Intern
 	- Summer of 2016
 	- Responsible for building a Microsoft Sharepoint Application to be used by
@@ -50,10 +50,10 @@ me an email at mark at stengle dot in.
 	- Sound Engineering
 		- Responsible for making the band sound it's very best in any
 		environment, setting equipment up, striking, and general onsite
-		troubeshooting and problem-solving. If something needs to be done, I
+		troubleshooting and problem-solving. If something needs to be done, I
 		make myself available to find a solution.
 	- On scholarship Spring 2016, Fall 2016
-- Mean Green Drum Line (Sprint 2016)
+- Mean Green Drum Line (Spring 2016)
 	- Assistant Videographer for the ensemble's 2016 trip to the WGI World
 	Championships in Dayton, OH.
 		- Responsible for assisting with setup and strike of all equipment,
