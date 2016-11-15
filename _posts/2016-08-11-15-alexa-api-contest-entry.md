@@ -16,7 +16,20 @@ excerpt: "Words about my project submission for the alexa api contest."
 
 ---
 
-# alexa-whatsopen-skill
+# whatsopen.gmu.edu Alexa Skill
+
+This is a short blurb about my recent entry in an Amazon contest. I wrote a
+skill for alexa to integrate with the API on SRCT's whatsopen page. It's pretty
+neat so I figured it's worth sharing.
+
+I'm also pretty lazy, so I basically copy pasted the text from my entry, so if
+anyone is interested in more specifics, I suggest sending me an email or filing
+an issue on the GitHub Reposoitory.
+
+Check out the code on [GitHub](https://github.com/ocelotsloth/alexa-whats-open-skill)!
+
+## Introduction
+
 As a student at George Mason University, I am lucky enough to be a part of a
 student organization that creates useful tools such as whatsopen.gmu.edu, an
 open source website that tracks the very simple question of "What's Open."
