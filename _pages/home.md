@@ -30,7 +30,7 @@ feature_row:
     url: "/photography/"
     btn_label: "Learn More"
 intro:
-  - excerpt: 'Get notified when I add new stuff: &nbsp; [<i class="fa fa-twitter"></i> @mark_stenglein](https://twitter.com/mark_stenglein){: .btn .btn--twitter}'
+  - excerpt: 'Get notified when I add new stuff (or just follow me): &nbsp; [<i class="fa fa-twitter"></i> @mark_stenglein](https://twitter.com/mark_stenglein){: .btn .btn--twitter}'
 ---
 
 <center>{% include feature_row id="intro" type="center" %}</center>
