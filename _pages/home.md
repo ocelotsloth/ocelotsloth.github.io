@@ -8,7 +8,7 @@ header:
   cta_label: "<i class='fa fa-file-text'></i> About Me"
   cta_url: "/about"
   caption:
-title: 'Stenglein Projects'
+title: 'Stenglein - Projects'
 excerpt: 'Hi! Welcome to my website and blog.'
 feature_row:
   - image_path: mm-software-feature.png
