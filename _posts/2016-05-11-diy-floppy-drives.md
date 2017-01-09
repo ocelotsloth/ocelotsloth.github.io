@@ -13,7 +13,7 @@ tags:
 twitterImage: "projects/diy-musical-drives/banner.jpg"
 ogImage:
     - url: "projects/diy-musical-drives/banner.jpg"
-excerpt: "In which I descibe the initial building of my DIY musical floppy
+excerpt: "In which I describe the initial building of my DIY musical floppy
           drives."
 firstTestID: "MfpcGV216Yk"
 secondTestID: "I2ceAvlwbmM"
