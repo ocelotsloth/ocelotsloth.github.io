@@ -83,7 +83,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            : "ocelotsloth"
   tumblr           :
-  twitter          : "mark_stenglein"
+  twitter          : "_ocelotsloth"
   vine             :
   weibo            :
   xing             :
@@ -250,6 +250,6 @@ tag_archive:
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
-    #  clippings: all
-    #  ignore:
-    #    envs: development
+  clippings: all
+  ignore:
+    envs: development
