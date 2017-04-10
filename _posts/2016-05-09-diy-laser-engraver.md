@@ -17,6 +17,7 @@ ogImage:
 excerpt: "I was actually able to create this machine for far less than the cost
          of buying one new. It isn’t nearly as accurate as a properly made
          machine but it still does a consistently decent job."
+initialBuildID: "UkmZC5s1Wsk"
 timelapseID: "FGswquf6Id4"
 gallery1:
   - url: projects/diy-laser-engraver/diode.jpg
@@ -120,10 +121,16 @@ on breadboard." %}
 
 Which began the process of building. I build this in a few hours and did not
 think to document the vast majority of the work, so I only have a couple photos.
-The initial plan called for the a different style to drive the upper axis, which
+The initial plan called for a different style to drive the upper axis, which
 did not end up working as the drawer rails I bought did not work very well, so I
 ended up taking apart an inkjet printer and salvaging the print head assembly
-for it. This ended up working really well actually, as it provided a really nice
+for it.
+
+Here's a video of the initial build which had those rails:
+
+{% include youtubePlayer.html id=page.initialBuildID %}
+
+This ended up working really well actually, as it provided a really nice
 way for me to mount the laser diode on the CD drive parts. I am able to focus
 the laser by hard focusing it at its lowest position and then sliding it upwards
 as high as the material stands on the bed surface.
