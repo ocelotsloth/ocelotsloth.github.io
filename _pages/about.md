@@ -20,7 +20,7 @@ was named the NCAA's number one pep band! There I split my time between sound
 engineering and troubleshooting equipment problems.
 
 If you like what I'm doing you can follow me here, on
-[Twitter](https://twitter.com/mark_stenglein), and my
+[Twitter](https://twitter.com/_ocelotsloth), and my
 [GitHub repositories](https://github.com/ocelotsloth). Also, feel free to send
 me an email at mark at stengle dot in.
 
