@@ -11,34 +11,34 @@ title                    : "Stenglein Projects"
 title_separator          : "-"
 name                     : "Mark Stenglein"
 description              : "Photography, Projects and Rambles by Mark"
-url                      : "http://www.stengleinprojects.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://mark.stengle.in" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
-    shortname            : "stengleinprojects" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            :
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                : "1705451479704191"
-    num_posts            : # 5 (default)
-    colorscheme          : "light" # "light" (default), "dark"
+    appid                :
+    num_posts            :
+    colorscheme          :
 
 # SEO Related
 google_site_verification :
-bing_site_verification   : "31B8A045260B0D843E8F7C83E713503E"
+bing_site_verification   :
 alexa_site_verification  :
-yandex_site_verification : "6b076e01694ff5a4"
+yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "mark_stenglein"
+  username               : "_ocelotsloth"
 facebook:
-  username               : "ocelotsloth"
-  app_id                 : "1705451479704191"
+  username               :
+  app_id                 :
   publisher              :
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -49,9 +49,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-72250527-1"
+    tracking_id          :
 
 # Google AdSense
 google_ad_client         :
@@ -64,13 +64,13 @@ author:
   avatar           : "bio-photo.jpg"
   bio              : "Just another college EE student who likes to make things."
   location         : "Fairfax, VA"
-  email            : "mark@stenglei.in"
+  email            : "mark@stengle.in"
   uri              : "http://www.stengleinprojects.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           : "ocelotsloth"
-  facebook         : "ocelotsloth"
+  facebook         :
   foursquare       :
   github           : "ocelotsloth"
   google_plus      :
@@ -81,7 +81,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            : "ocelotsloth"
+  steam            :
   tumblr           :
   twitter          : "_ocelotsloth"
   vine             :
